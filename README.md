@@ -12,7 +12,7 @@ Este es mi portafolio personal, conoceras un poco de mi y a lo que me dedico.
 La página está alojada en **GitHub Pages**, por lo que puedes verla en cualquier navegador sin necesidad de instalar nada.
 
 📎 **Enlace al sitio web:**  
-[https://github.com/TU_USUARIO/tunombre.github.io](https://github.com/TU_USUARIO/tunombre.github.io)
+[https://github.com/Kennedy343/web_portafolio.github.io](https://github.com/Kennedy343/web_portafolio.github.io)
 
 ## 🚀 Cómo ver el proyecto localmente
 
