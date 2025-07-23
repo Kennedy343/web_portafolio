@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kennedy Mendoza | Portafolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-gray-900 to-indigo-900 text-white min-h-screen">
+    <!-- Navbar -->
+    <header class="flex justify-between items-center px-10 py-6">
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#" class="hover:text-indigo-400">Inicio</a></li>
+          <li><a href="#" class="hover:text-indigo-400">Sobre mí</a></li>
+          <li><a href="#" class="hover:text-indigo-400">Portafolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="flex flex-col md:flex-row items-center justify-between px-10 py-16 max-w-6xl mx-auto">
+      <!-- Text -->
+      <div class="text-center md:text-left">
+        <h2 class="text-5xl font-bold leading-tight mb-4">
+          Kennedy <span class="text-indigo-400">Mendoza</span>
+        </h2>
+        <p class="text-xl text-indigo-200 mb-6">Ingeniero en Sistemas | Desarrollador Web</p>
+        
+      </div>
+
+      <!-- Foto -->
+      <div class="mt-10 md:mt-0">
+        <div class="relative w-56 h-56 mx-auto rounded-full overflow-hidden border-4 border-indigo-400 shadow-lg">
+          <img src="img/foto.jpeg" alt="Foto de Kennedy" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="px-6 py-12 bg-gradient-to-b from-indigo-900 to-indigo-800">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div class="bg-white/10 p-6 rounded-xl shadow-md hover:scale-105 transition">
+          <svg class="mx-auto mb-4 w-10 h-10 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 6V4m0 0a8 8 0 100 16v-2m0-14V2" />
+          </svg>
+          <h3 class="font-semibold text-white text-lg mb-2">Habilidades Sólidas</h3>
+          <p class="text-indigo-200 text-sm">Experiencia con HTML, CSS, JavaScript y Tailwind CSS.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl shadow-md hover:scale-105 transition">
+          <svg class="mx-auto mb-4 w-10 h-10 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <h3 class="font-semibold text-white text-lg mb-2">Trabajo Creativo</h3>
+          <p class="text-indigo-200 text-sm">Diseño de interfaces modernas y accesibles.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl shadow-md hover:scale-105 transition">
+          <svg class="mx-auto mb-4 w-10 h-10 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 4v16m8-8H4" />
+          </svg>
+          <h3 class="font-semibold text-white text-lg mb-2">Dedicación Total</h3>
+          <p class="text-indigo-200 text-sm">Autodidacta con pasión por aprender y mejorar constantemente.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
